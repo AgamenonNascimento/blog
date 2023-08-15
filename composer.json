@@ -4,14 +4,25 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Agamenon\\Cursopnh8\\": "src/"
-        }
+            "sistema\\": "sistema/"
+        },
+        "files": [
+            "sistema/configuracao.php"
+        ]
     },
     "authors": [
         {
-            "name": "Agamenon Nascimento"
+            "name": "Agamenon Nascimento",
+            "email": "asn.sistema.nascimento@gmail.com",
+            "homepage": "https://ehcriative.com.br",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=8.0",
+        "pecee/simple-router": "dev-master"
+        
+        
+    }
 }
