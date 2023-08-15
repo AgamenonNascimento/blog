@@ -1,0 +1,17 @@
+{
+    "name": "agamenon/cursopnh8",
+    "description": "Curso de PHP 8",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Agamenon\\Cursopnh8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Agamenon Nascimento"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
